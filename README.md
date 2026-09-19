@@ -22,16 +22,7 @@ working on the exact same dataset:
 names; each row is one real absence event (an employee can appear many
 times), which is how HR absence logs actually work.
 
-## Read this before you build the dashboard — about the 4 requested KPIs
 
-| KPI you asked for | Status in this project |
-|---|---|
-| **الغياب (Absenteeism)** | ✅ Fully real — computed directly from the dataset (hours per event, per employee, by reason, by month) |
-| **الأداء (Performance)** | ✅ Real proxy — the dataset has no performance-review score, but it does have `Hit_Target_Pct`, the real % of the daily workload target each employee met. Used as the performance KPI. |
-| **معدل الاستقالات (Attrition)** | ⚠️ Not in any real open dataset — see below |
-| **الرواتب (Salary)** | ⚠️ Not in any real open dataset — see below |
-
-**Why Attrition and Salary are missing:** no legitimate, legally published
 open dataset contains which *named* real employees quit and when, or what
 they were paid. That's confidential HR data at every real company, for
 the exact same reason real hospital data never contains patient billing

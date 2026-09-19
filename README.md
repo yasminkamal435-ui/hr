@@ -110,30 +110,7 @@ Server/Database from `setup_all.ps1`. Follow `powerbi/PowerBI_Setup_Guide.md`.
 an interactive preview of what the finished Power BI report should look
 like, driven by the real data.
 
-## Folder structure
 
-```
-HR_Analytics_Project/
-├── README.md
-├── connection.txt
-├── data/
-│   └── Employee_Absenteeism_Data.csv   <- real employee absence data
-├── sql/
-│   ├── setup_all.ps1                   <- ONE command setup
-│   └── setup_hr_database.sql           <- manual/SSMS alternative
-├── python/
-│   ├── config.py
-│   ├── extract_from_sql.py
-│   ├── clean_data.py
-│   ├── analyze.py                      <- checks for your real attrition/salary data too
-│   ├── main.py
-│   └── requirements.txt
-├── powerbi/
-│   ├── PowerBI_Setup_Guide.md
-│   └── Black_SkyBlue_PowerBI_Theme.json
-└── dashboard_preview/
-    └── HR_Overview_Dashboard.html
-```
 
 **Data source & license:** Martiniano, A., Ferreira, R. P., & Sassi, R. J.
 (2012), *"Application of a neuro fuzzy network in prediction of
